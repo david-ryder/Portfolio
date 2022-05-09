@@ -1,0 +1,56 @@
+#navbar {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+    margin: 0%;
+    padding: 0%;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    z-index: 1; 
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color:rgb(157, 9, 255);
+}
+
+#background {
+    max-width: 95%;
+    max-height: 100%;
+}
+
+#headshot {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+}
+
+#headshot h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    text-align: center;
+    padding: 0% 20%;
+}
+
+.left {
+    text-align: left;
+    margin: 0% 20%;
+}
