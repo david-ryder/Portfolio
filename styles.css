@@ -8,6 +8,7 @@
     width: 100%;
     top: 0%;
     z-index: 1; 
+    max-width: 100%;
 }
 
 #navbar li {
@@ -27,8 +28,7 @@
 }
 
 #background {
-    max-width: 95%;
-    max-height: 100%;
+    max-width: 100%;
 }
 
 #headshot {
