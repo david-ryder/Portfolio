@@ -54,3 +54,13 @@
     text-align: left;
     margin: 0% 5%;
 }
+
+#about {
+    
+}
+
+#about img {
+    float: left;
+    max-width: 20vw;
+    padding-right: 5vw;
+}
