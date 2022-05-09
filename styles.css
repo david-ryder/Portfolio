@@ -1,3 +1,9 @@
+body {
+    height: 100%;
+    padding-top: 37px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 #navbar {
     list-style-type: none;
     background-color: black;
@@ -8,7 +14,7 @@
     top: 0%;
     left: 0%;
     z-index: 1; 
-    max-width: 100%;
+    max-width: 100%;;
 }
 
 #navbar li {
@@ -56,7 +62,7 @@
 }
 
 #about {
-    
+
 }
 
 #about img {
