@@ -1,9 +1,7 @@
 body {
     height: 100%;
     padding-top: 37px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-    background-color: rgb(39, 39, 39);
-    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -75,21 +73,12 @@ body {
 #about img {
     width: 30%;
     height: 30%;
-    padding-left: 17px;
+    margin-left: 40px;
 }
 
-#education {
-    display: flex;
-}
-
-#education img {
-    max-width: 20%;
-    max-height: 20%;
-    padding-left: 17px;
-}
-
-#experience img{
-    width: 40%;
+#skills img {
+    width: 20%;
+    float: left;
 }
 
 .center {
@@ -97,4 +86,15 @@ body {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+  }
+
+  #education img {
+      width: 100px;
+      margin-left: 40px;
+      margin-top: 100%;
+  }
+
+  #skills img {
+    width: 175px;
+    margin-left: 400px;
   }
