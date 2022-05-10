@@ -2,6 +2,9 @@ body {
     height: 100%;
     padding-top: 37px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(39, 39, 39);
+    color: white;
+    margin: 0px;
 }
 
 #navbar {
@@ -62,12 +65,13 @@ body {
     margin: 0% 5%;
 }
 
-#about {
-
-}
-
 #about img {
     float: left;
     max-width: 20vw;
     padding-right: 5vw;
+}
+
+.container {
+    font-size: 1.2vw;
+    margin: 20px;
 }
