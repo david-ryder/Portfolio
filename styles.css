@@ -1,3 +1,15 @@
+@media (min-width: 480px) {
+    .content{
+       margin-left: 20px;
+    }
+}
+
+@media (min-width: 320px) {
+    .content{
+       margin-left: 10px;
+    }
+}
+
 body {
     height: 100%;
     padding-top: 37px;
@@ -5,6 +17,8 @@ body {
     background-color: rgb(39, 39, 39);
     color: white;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 #navbar {
@@ -60,18 +74,12 @@ body {
     padding: 0% 20%;
 }
 
-.left {
+.content {
     text-align: left;
     margin: 0% 5%;
 }
 
 #about img {
-    float: left;
     max-width: 20vw;
     padding-right: 5vw;
-}
-
-.container {
-    font-size: 1.2vw;
-    margin: 20px;
 }
