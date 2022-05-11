@@ -39,8 +39,7 @@
 }
 
 /* For desktop or larger devices */
-@media only screen and (min-width: 800px)
-{
+@media only screen and (min-width: 800px){
     .flex {
         display: flex;
         resize: none;
@@ -114,7 +113,7 @@
 
 #navbar a:hover {
     background-color:rgb(157, 9, 255);
-}
+} 
 
 #headshot {
     text-align: center; 
