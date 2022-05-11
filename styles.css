@@ -1,22 +1,72 @@
+
+/* For mobile devices */
 @media only screen and (max-width: 640px) {
-    body {
-        background-color: blue;
+    .flex {
+        display: block;
+    }
+
+    .flex img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #about img {
+        width: 50vw;
+        height: fit-content;
+    }
+
+    #education img {
+        width: 15vw;
+        height: auto;
+        position: relative;
+        float: right;
+        bottom: 150px;
+    }
+
+    #skills img {
+        max-width: 30vw;
+        height: auto;
+    }
+}
+
+/* For desktop or larger devices */
+@media only screen and (min-width: 640px)
+{
+    .flex {
+        display: flex;
+    }
+    
+    .flex img {
+        padding-left: 10%;
+        height: auto;
+    }
+
+    #about img {
+        max-width: 25vw;
+        height: fit-content;
+    }
+
+    #education img {
+        max-width: 80px;
+        height: auto;
+        position: relative;
+        float: right;
+        top: 60%;
+    }
+
+    #skills img {
+        max-width: 100%;
+        max-height: 100%;
+        height: auto;
     }
 }
 
 .section {
     border-bottom: 5px solid white;
     padding: 2%;
-}
-
-.flex {
-    display: flex;
-}
-
-.flex img {
-    margin-left: auto;
-    height:fit-content;
-    padding-left: 10%;
+    display: inline-block;
+    width: 100%;
 }
 
 #navbar {
@@ -67,34 +117,3 @@
 #background {
     max-width: 100%;
 }
-
-
-
-/* 
-
-#about {
-    display: flex;
-    flex-direction: row;
-}
-
-#about img {
-    width: 30%;
-    height: 30%;
-    margin-left: 40px;
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  #education img {
-      max-width: 100px;
-      margin-left: 40px;
-  }
-
-  #skills img {
-      width: 15vw;
-  } */
