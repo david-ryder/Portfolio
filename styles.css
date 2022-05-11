@@ -17,11 +17,11 @@
     }
 
     #education img {
-        width: 15vw;
+        max-width: 70px;
         height: auto;
         position: relative;
-        bottom: 150px;
-        float: inline-end;
+        float: right;
+        bottom: 125px;
     }
 
     #skills img {
@@ -115,7 +115,7 @@
     position: absolute; 
     top:50%; left:50%; 
     transform:translate(-50%, -50%);
-    font-size: 4vw;
+    font-size: 10vw;
 }
 
 #background {
