@@ -9,28 +9,25 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
+        height: fit-content;
     }
 
     #about img {
         max-width: 80vw;
-        height: fit-content;
     }
 
     #education img {
         max-width: 70px;
-        height: auto;
         position: relative;
         margin-left: auto;
     }
 
     #skills img {
         max-width: 30vw;
-        height: auto;
     }
 
     #experience img {
         max-width: 80vw;
-        height: auto;
     }
 
     #involvement img {
