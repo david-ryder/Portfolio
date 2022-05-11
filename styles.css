@@ -13,7 +13,7 @@
 
     #about img {
         max-width: 80vw;
-        height: auto;
+        height: fit-content;
     }
 
     #education img {
@@ -30,7 +30,7 @@
 
     #experience img {
         max-width: 80vw;
-        height: auto;
+        height: fit-content;
     }
 
     #involvement img {
@@ -56,7 +56,7 @@
 
     #about img {
         max-width: 400px;
-        height: auto;
+        height: fit-content;
     }
 
     #education img {
