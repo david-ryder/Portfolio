@@ -1,6 +1,6 @@
 @media only screen and (max-width: 640px) {
-    .flex {
-        display: block;
+    body {
+        background-color: blue;
     }
 }
 
