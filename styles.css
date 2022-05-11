@@ -12,8 +12,8 @@
     }
 
     #about img {
-        width: 50vw;
-        height: fit-content;
+        max-width: 80vw;
+        height: auto;
     }
 
     #education img {
@@ -103,6 +103,7 @@
 #headshot {
     text-align: center; 
     position: relative;
+    margin-top: 37px;
 }
 
 #headshot img {
