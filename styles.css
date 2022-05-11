@@ -27,6 +27,18 @@
         max-width: 30vw;
         height: auto;
     }
+
+    #experience img {
+        max-width: 80vw;
+        height: auto;
+    }
+
+    #involvement img {
+        max-width: 80vw;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 /* For desktop or larger devices */
@@ -60,6 +72,18 @@
         height: fit-content;
         margin-left: auto;
     }
+
+    #experience img {
+        max-width: 500px;
+        height: fit-content;
+    }
+
+    #involvement img {
+        max-width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 .section {
@@ -67,7 +91,7 @@
     padding: 2%;
     display: inline-block;
     width: 100%;
-    font-size: 120%;
+    font-size: 140%;
 }
 
 #navbar {
@@ -123,5 +147,13 @@
 }
 
 #interests {
+    border-bottom: none;
+}
+
+#experience {
+    margin-top: 27px;
+}
+
+#involvement {
     border-bottom: none;
 }
