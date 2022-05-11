@@ -48,7 +48,7 @@
     
     .flex img {
         padding-left: 10%;
-        height: fit-content;
+        height: auto;
     }
 
     #about img {
