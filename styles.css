@@ -1,6 +1,6 @@
 
 /* For mobile devices */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
     .flex {
         display: block;
     }
@@ -42,7 +42,7 @@
 }
 
 /* For desktop or larger devices */
-@media only screen and (min-width: 700px)
+@media only screen and (min-width: 1000px)
 {
     .flex {
         display: flex;
@@ -51,31 +51,27 @@
     
     .flex img {
         padding-left: 10%;
-        height: auto;
+        height: fit-content;
     }
 
     #about img {
-        max-width: 400px;
-        height: fit-content;
+        max-width: 25vw;
     }
 
     #education img {
         max-width: 80px;
-        height: auto;
         position: relative;
         float: right;
-        top: 60%;
+        top: 75%;
     }
 
     #skills img {
-        width: 250px;
-        height: fit-content;
+        width: 300px;
         margin-left: auto;
     }
 
     #experience img {
-        max-width: 500px;
-        height: fit-content;
+        max-width: 25vw;
     }
 
     #involvement img {
