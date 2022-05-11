@@ -44,7 +44,7 @@
 
     #about img {
         max-width: 25vw;
-        height: fit-content;
+        height: auto;
     }
 
     #education img {
