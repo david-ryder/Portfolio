@@ -1,6 +1,6 @@
 
 /* For mobile devices */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 800px) {
     .flex {
         display: block;
     }
@@ -39,7 +39,7 @@
 }
 
 /* For desktop or larger devices */
-@media only screen and (min-width: 1000px)
+@media only screen and (min-width: 800px)
 {
     .flex {
         display: flex;
@@ -48,7 +48,7 @@
     
     .flex img {
         padding-left: 10%;
-        height: auto;
+        height: fit-content;
     }
 
     #about img {
