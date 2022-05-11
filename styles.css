@@ -1,6 +1,6 @@
 
 /* For mobile devices */
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 700px) {
     .flex {
         display: block;
     }
@@ -30,7 +30,7 @@
 
     #experience img {
         max-width: 80vw;
-        height: fit-content;
+        height: auto;
     }
 
     #involvement img {
@@ -42,7 +42,7 @@
 }
 
 /* For desktop or larger devices */
-@media only screen and (min-width: 640px)
+@media only screen and (min-width: 700px)
 {
     .flex {
         display: flex;
